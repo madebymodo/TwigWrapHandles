@@ -10,9 +10,9 @@ Requires Fractal v1.1.0 or greater.
 
 This plugin wraps components and partials included via Twig `include` tag or Fractal `render` tag with a HTML comment that includes their handle.
 
-logo.svg:
+logo.twig:
 
-```twig logo.svg
+```twig
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 456 456" xml:space="preserve"><circle cx="228" cy="228" r="228" fill="#54aedd"/><path fill="#f9f9f9" d="M129.9 119v200.3h200.3z"/><path fill="#f0f1f1" d="M129.9 319.3h200.3l-110-110-90.3 90.2z"/><path fill="#fff" d="M330.2 119v200.3H129.9z"/></svg>
 ```
 
@@ -25,9 +25,9 @@ twig component:
 rendered component:
 
 ```html
-<!-- @icon-star -->
+<!-- @logo -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 456 456" xml:space="preserve"><circle cx="228" cy="228" r="228" fill="#54aedd" /><path fill="#f9f9f9" d="M129.9 119v200.3h200.3z" /><path fill="#f0f1f1" d="M129.9 319.3h200.3l-110-110-90.3 90.2z" /><path fill="#fff" d="M330.2 119v200.3H129.9z" /></svg>
-<!-- /@icon-star -->
+<!-- /@logo -->
 ```
 
 # How to install
