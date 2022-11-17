@@ -1,6 +1,6 @@
 {
 	"name": "twig-wrap-handles",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A plugin for Fractal Twig adapter to inline component names in HTML comments ",
 	"main": "index.js",
 	"scripts": {
