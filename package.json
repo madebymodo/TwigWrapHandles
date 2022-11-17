@@ -1,8 +1,11 @@
 {
-	"name": "twigwraphandles.git",
+	"name": "twig-wrap-handles",
 	"version": "1.0.0",
 	"description": "A plugin for Fractal Twig adapter to inline component names in HTML comments ",
 	"main": "index.js",
+	"scripts": {
+		"test": "echo \"No test specified\""
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/madebymodo/twig-wrap-handles.git"
